@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>個人簡介</title>
+	<style type="text/css">
+	* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+	h1 {color:#00FFFF; font-size:60px;}
+	h2 {color:#00E3E3; font-size:40px;}
+	.colar {
+    	color:#FF8000;
+	}
+
+	body {
+  		background-image: url('https://cdn02.pinkoi.com/wp-content/uploads/sites/7/2023/08/23152124/3-8.webp');
+  		background-size: cover;
+  		background-repeat: no-repeat;
+	}
+	</style>
+	<script>
+		function change1() {
+		document.getElementById("pic").src = "/static/HUTAW.png";
+		document.getElementById("h2text").innerText = "靜宜資管";
+		}
+		function change2() {
+		document.getElementById("pic").src = "/static/LIU.jpg";
+		document.getElementById("h2text").innerText = "ZENTAI_LIU";
+		}
+</script>
+</head>
+<body>
+	<table width="70%">
+		<tr>
+			<td>
+				<img src="/static/LIU.jpg" width="500" height="500"id="pic"onmouseover="change1()" onmouseout="change2()"></img>
+			</td>
+
+			<td>
+				<h1>劉增泰</h1>
+				<h2 id="h2text">ZenTai_LIU</h2>
+			</td>
+		</tr>
+	</table>
+
+	<table width="90%" border="8">
+		<tr>
+			<td>
+				<font size="6"><div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color: rgb(41, 105, 176, 0.7);border-radius: 4px;">
+				<span style="color: rgb(255, 255, 255);">關於我</div><br></span>
+				系級：<a>資管二A</a><br>
+				學號:<a>411146318</a><br>
+				個人YT：<a href="https://www.youtube.com/@user-tl4ow3tx3p" class="colar">https://www.youtube.com/@user-tl4ow3tx3p</a><br>
+				E-Mail:: <a href="mailto:jjes82012@gmail.com" class="colar">jjes82012@gmail.com</a><br></font>
+			</td>
+
+			<td>
+				<font size="6"><div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color: rgb(41, 105, 176, 0.7);border-radius: 4px;">
+				<span style="color: rgb(255, 255, 255);">喜好名言</div><br></span>
+				做了不一定會成功，但是你不去做就永遠不會成功<br>
+				眼睛長在前面，看到別人的缺點，卻看不見自己缺點<br>
+
+			</td>
+
+			<td>
+				<div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color: rgb(41, 105, 176, 0.7);border-radius: 4px;">
+				<span style="color: rgb(255, 255, 255);"><font size="6">個人剪輯<br></div></font></span>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/NvXxmEaKMnA?si=6vjFQ2aCBR4T4yG7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</td>
+		</tr>
+	</table>
+	<br><font size="6"><div style="border-width: 3px; border-style:solid ; width: 150px; height: 30px; border-color: rgb(255, 172, 85); padding: 5px; text-align: center;"><font size="6"><a href="/">回首頁<br></div></font></a>
+
+</body>
+</html>
